@@ -32,7 +32,7 @@ sub BUILD {
 				print "\nNo attributions for ".$_."\n\n";
 				print "\nAdding another attribution vuln for".$_."\n\n";
 				print "\nAdding another attribution vuln 2 for".$_."\n\n";
-				print "\nAdding another attribution vuln DEF for".$_."\n\n";
+				print "\nAdding another attribution vuln XYZ for".$_."\n\n";
 			
 				
 			}
