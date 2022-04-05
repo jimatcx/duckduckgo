@@ -34,6 +34,7 @@ sub BUILD {
 				print "\nAdding another Jimbeaux 808 bass attribution vuln for".$_."\n\n";
 				print "\nAdding another Jimbeaux 123 attribution vuln for".$_."\n\n";
 				print "\nAdding another Jimbeaux xyz attribution vuln for".$_."\n\n";
+				print "\nAdding another Jimbeaux ABC attribution vuln for".$_."\n\n";
 
 		
 			}
