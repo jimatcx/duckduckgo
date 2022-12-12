@@ -38,6 +38,8 @@ sub BUILD {
 				
 				print "\nAdding another Jimbeaux XXX attribution vuln for".$_."\n\n";
 				
+				print "\nAdding another Jimbeaux 555 attribution vuln for".$_."\n\n";
+				
 
 		
 			}
