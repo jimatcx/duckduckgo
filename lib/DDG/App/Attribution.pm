@@ -29,6 +29,7 @@ sub BUILD {
 					print " - ".$key." (".$value.")\n";
      					print " new vuln a - ".$key." (".$value.")\n";
 	  				print " new vuln B - ".$key." (".$value.")\n";
+       					print " new vuln C - ".$key." (".$value.")\n";
 				}
 			} else {
 				print "\nNo attributions for ".$_."\n\n";
