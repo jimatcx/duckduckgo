@@ -28,6 +28,7 @@ sub BUILD {
 					my $value = shift @attributions;
 					print " - ".$key." (".$value.")\n";
      					print " new vuln a - ".$key." (".$value.")\n";
+	  				print " new vuln B - ".$key." (".$value.")\n";
 				}
 			} else {
 				print "\nNo attributions for ".$_."\n\n";
