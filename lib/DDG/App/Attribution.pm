@@ -27,6 +27,7 @@ sub BUILD {
 					my $key = shift @attributions;
 					my $value = shift @attributions;
 					print " - ".$key." (".$value.")\n";
+     					print " VULN 1 ".$key." (".$value.")\n";
 				}
 			} else {
 				print "\nNo attributions for ".$_."\n\n";
