@@ -27,7 +27,9 @@ sub BUILD {
 					my $key = shift @attributions;
 					my $value = shift @attributions;
 					print " - ".$key." (".$value.")\n";
-     					print " VULN 1 ".$key." (".$value.")\n";
+     					print " VULN 2 Merge example ".$key." (".$value.")\n";
+	  print " VULN 3 Merge example ".$key." (".$value.")\n";
+	  print " VULN 4 ".$key." (".$value.")\n";
 				}
 			} else {
 				print "\nNo attributions for ".$_."\n\n";
