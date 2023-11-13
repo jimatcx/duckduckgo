@@ -17,20 +17,20 @@ sub BUILD {
 	for (@modules) {
 		use_module($_);
 		if ($self->html) {
-			print $_->get_attributions_html;
+			# print $_->get_attributions_html;
 			print "\n";
 		} else {
 			my @attributions = @{$_->get_attributions};
 			if (@attributions) {
-				print "\nAttributions for ".$_.":\n\n";
-				while (@attributions) {
-					my $key = shift @attributions;
-					my $value = shift @attributions;
-					print " - ".$key." (".$value.")\n";
-     					print " VULN 1 ".$key." (".$value.")\n";
+				# print "\nAttributions for ".$_.":\n\n";
+				# while (@attributions) {
+				#	my $key = shift @attributions;
+				#	my $value = shift @attributions;
+				#	print " - ".$key." (".$value.")\n";
+     				#	print " VULN 1 ".$key." (".$value.")\n";
 				}
 			} else {
-				print "\nNo attributions for ".$_."\n\n";
+				# print "\nNo attributions for ".$_."\n\n";
 				
 			}
 		}
