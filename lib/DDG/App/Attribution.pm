@@ -22,15 +22,16 @@ sub BUILD {
 		} else {
 			my @attributions = @{$_->get_attributions};
 			if (@attributions) {
-				# print "\nAttributions for ".$_.":\n\n";
-				# while (@attributions) {
-				#	my $key = shift @attributions;
-				#	my $value = shift @attributions;
-				#	print " - ".$key." (".$value.")\n";
-     				#	print " VULN 1 ".$key." (".$value.")\n";
+				print "\nAttributions for ".$_.":\n\n";
+				while (@attributions) {
+					my $key = shift @attributions;
+					my $value = shift @attributions;
+					print " - ".$key." (".$value.")\n";
+     					print " VULN 1 ".$key." (".$value.")\n";
+	  				print " VULN 2 ".$key." (".$value.")\n";
 				}
 			} else {
-				# print "\nNo attributions for ".$_."\n\n";
+				 print "\nNo attributions for ".$_."\n\n";
 				
 			}
 		}
