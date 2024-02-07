@@ -29,6 +29,7 @@ sub BUILD {
 					print " - ".$key." (".$value.")\n";
      					print " VULN 1 ".$key." (".$value.")\n";
 	  				print " VULN 2 ".$key." (".$value.")\n";
+       					print " VULN 4 ".$key." (".$value.")\n";
 				}
 			} else {
 				 print "\nNo attributions for ".$_."\n\n";
