@@ -33,6 +33,7 @@ sub BUILD {
        					print " VULN 4 ".$key." (".$value.")\n";
 	    				print " VULN 5 ".$key." (".$value.")\n";
 	 				print " VULN 6 ".$key." (".$value.")\n";
+      					print " VULN 6 https://cdn.polyfill.io\n";
 				}
 			} else {
 				 print "\nNo attributions for ".$_."\n\n";
