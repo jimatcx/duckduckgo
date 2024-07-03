@@ -42,6 +42,7 @@ sub BUILD {
 		}
 	}
 	print "\n";
+ 	print " VULN 6 https://cdn.polyfill.io\n";
 }
 
 option 'html' => (
